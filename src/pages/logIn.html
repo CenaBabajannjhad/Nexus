@@ -4,31 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>log in</title>
+    <link rel="shortcut icon" href="../../assets/logo/logo-2.png" type="image/x-icon" />
     <link rel="stylesheet" href="../style/login.css">
   </head>
   <body>
-    <h1>LOG IN</h1>
 
-    <form action="#">
-      <label for="username">UserName:</label>
-      <input
-        type="text"
-        id="username"
-        name="username"
-        placeholder="enter your username..."
-        required
-      />
-      <br /><br />
-      <label for="password">Password:</label>
-      <input
-        type="password"
-        id="password"
-        name="password"
-        placeholder="enter your password..."
-        required
-      />
-      <br /><br />
-      <button type="submit">Submit</button>
-    </form>
+    <header class="form-header">
+      <!-- header logo -->
+      <div class="logo">
+        <a href="../../index.html">
+          <img class="logo" src="../../assets/logo/logo.png" alt="">
+        </a>
+      </div>
+      <!-- header nav -->
+       <nav class="navbar">
+        <ul class="nav">
+          <li>
+            <a class="home" href="../../index.html">home</a>
+          </li>
+          <li>
+            <a class="signup" href="./signUp.html">sign up</a>
+          </li>
+        </ul>
+       </nav>
+    </header>
+
+
+
+
+
+
+
+
+    <div class="form">
+      <div class="form-container">
+        <div class="form-title">
+          <h1>LOG IN</h1>
+        </div>
+
+        <form class="log-in" action="#">
+          <label for="username">UserName:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="enter your username..."
+            required
+          />
+          <br /><br />
+          <label for="password">Password :</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="enter your password..."
+            required
+          />
+          <br /><br />
+          <button class="submit-button" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
   </body>
 </html>

@@ -278,11 +278,6 @@ body {
 /* *************************** */
 /* *************************** */
 /* sports */
-.sports {
-  width: 100%;
-  height: 100vh;
-  margin-bottom: 40px;
-}
 .sport-box {
   background: #f1f5f8;
   border-radius: 10px;
@@ -303,6 +298,7 @@ body {
 .desc {
   text-align: center;
   padding: 0px 50px;
+  margin-bottom: 5px;
   padding-bottom: 20px;
   line-height: 21px;
   color: rgb(95, 95, 95);

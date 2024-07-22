@@ -19,19 +19,20 @@
   bottom: 0;
   left: 0;
   background: #fff;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all ease-in-out 0.3s;
-
+  
   background-color: #f1f5f7;
   background-color: #e5e5f7;
   background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px),
-    radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
 }
+/* utilities */
 
 .bodyLoading {
   overflow: hidden !important;
@@ -39,14 +40,26 @@
 .overflow-hidden {
   overflow-y: hidden;
 }
-.mb40 {
+.mb-40 {
   margin-bottom: 40px;
+}
+.my-20{
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .py-30 {
   padding: 30px 0px;
 }
-.wh-100 {
+.w-45{
+  width: 45%;
+}
+.h-screen{
+  height: 100vh;
+}
+.w-full {
   width: 100%;
+}
+.h-full{
   height: 100%;
 }
 .w50hfull {
@@ -78,7 +91,6 @@
   display: flex;
   align-items: center;
 }
-
 .title-status {
   background: #9300e1;
   padding: 10px 20px;
@@ -180,35 +192,24 @@ body {
 /* *************************** */
 /* *************************** */
 /* hero section */
-.hero-section {
-  margin-bottom: 50px;
-}
-.hero-container {
-  margin-top: 50px;
-}
-/* title */
-.hero-title {
-  margin-bottom: 100px;
-  padding-left: 50px;
-}
-.hero-title > h1 {
+.hero-title{
   font-size: 3.8rem;
   text-transform: capitalize;
   line-height: 50px;
   margin-bottom: 10px;
 }
-.hero-title > p {
+.hero-desc{
   color: rgb(51, 51, 51);
-  padding-right: 90px;
 }
-.name {
+.name{
   color: #9300e1;
 }
-/* img */
-.hero-img > img {
-  width: 550px;
+.hero-img{
+  width: 500px;
 }
-
+.hero-img > img{
+  width: 100%;
+}
 /* *************************** */
 /* *************************** */
 /* *************************** */
@@ -400,4 +401,15 @@ body {
   :root {
     --max-width: 720px;
   }
+}
+
+
+
+
+
+
+
+.example{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

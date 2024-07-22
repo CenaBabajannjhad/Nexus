@@ -111,8 +111,8 @@
 }
 .main-title {
   text-align: center;
-  line-height: 40px;
-  font-size: 2.3rem;
+  line-height: 35px;
+  font-size: 1.9rem;
   font-weight: 700;
   width: 700px;
   margin: 0px auto;
@@ -122,11 +122,12 @@
   color: #edcf73;
 }
 .main-title-desc {
-  width: 500px;
+  width: 550px;
   line-height: 20px;
   margin: 0px auto;
   text-align: center;
-  color: rgb(117, 117, 117);
+  font-size: 1rem;
+  color: rgb(92, 92, 92);
 }
 /* our-value-section area*/
 .our-value-section {

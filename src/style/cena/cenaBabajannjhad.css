@@ -43,6 +43,9 @@
 .mb-40 {
   margin-bottom: 40px;
 }
+.mb-20{
+  margin-bottom: 20px;
+}
 .my-20{
   margin-bottom: 20px;
   margin-top: 20px;
@@ -50,6 +53,12 @@
 .my-40{
   margin-bottom: 40px;
   margin-top: 40px;
+}
+.pb-40{
+  padding-bottom: 40px;
+}
+.pt-40{
+  padding-top: 40px;
 }
 .py-30 {
   padding: 30px 0px;
@@ -95,7 +104,7 @@
   display: flex;
   align-items: center;
 }
-.title-status {
+.section-status {
   background: #9300e1;
   padding: 10px 20px;
   border-radius: 5px;
@@ -103,7 +112,7 @@
   border-bottom-right-radius: 40px;
   text-align: center;
 }
-.title-parent {
+.section-title {
   width: 200px;
   margin: 0px auto;
   padding-top: 20px;
@@ -196,7 +205,7 @@ body {
 /* *************************** */
 /* *************************** */
 /* hero section */
-.hero-grid{
+.grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -225,28 +234,21 @@ body {
 /* *************************** */
 /* *************************** */
 /* who am i section */
-.who-am-i {
-  height: 100vh;
-}
 .who-container {
   width: 100%;
   height: 80%;
 }
-.who-img {
-  width: 50%;
-  height: 100%;
-}
-.who-img > img {
+.who-img{
   width: 500px;
 }
-.who-text-container {
-  margin-left: 50px;
-}
-.who-text-container > h2 {
+.who-title{
+  padding-left: 20px;
+  margin-top: 200px;
   font-size: 2.4rem;
-  margin-bottom: 40px;
+  line-height: 35px;
 }
-.who-text-container > p {
+.who-desc{
+  padding-left: 20px;
   font-size: 0.9rem;
   color: rgb(82, 82, 82);
 }

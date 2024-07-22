@@ -12,6 +12,33 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+.loading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.3s;
+
+  background-color: #f1f5f7;
+  background-color: #e5e5f7;
+  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px),
+    radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.bodyLoading {
+  overflow: hidden !important;
+}
+.overflow-hidden {
+  overflow-y: hidden;
+}
 .mb40 {
   margin-bottom: 40px;
 }
@@ -77,11 +104,16 @@ body {
   background: none;
   border: none;
   position: fixed;
-  right: 50px;
-  bottom: 50px;
+  right: 70px;
+  bottom: 70px;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+  transition: all ease-in 0.2s;
+}
+
+.hidden {
+  bottom: -100px;
 }
 .up:hover {
   cursor: pointer;
@@ -113,6 +145,10 @@ body {
 /* ****************************** */
 /* ****************************** */
 /* navbar */
+.header {
+  max-width: var(--max-width);
+  margin: 0px auto;
+}
 .navbar {
   padding: 30px 0px;
 }
@@ -281,7 +317,7 @@ body {
 .contact-con {
   margin-top: 80px;
 }
-.contact-ways{
+.contact-ways {
   background: #fff;
   padding: 50px 0px 50px 0px;
   border-radius: 10px;
@@ -346,16 +382,16 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.footer > div{
+.footer > div {
   padding: 80px 0px;
 }
-.footer > div > h2{
+.footer > div > h2 {
   color: #ffffff;
   margin-bottom: 20px;
   text-transform: capitalize;
   font-size: 2rem;
 }
-.footer > div > p{
+.footer > div > p {
   color: #e2e2e2;
   text-transform: capitalize;
   font-size: 1rem;

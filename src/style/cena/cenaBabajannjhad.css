@@ -155,6 +155,7 @@ body {
 }
 .hero-title > p {
   color: rgb(51, 51, 51);
+  padding-right: 90px;
 }
 .name {
   color: #9300e1;

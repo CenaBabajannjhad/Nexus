@@ -10,42 +10,81 @@
 </head>
 
 <body>
-    <h1>SIGN UP</h1>
+    <header class="form-header">
+        <!-- header logo -->
+        <div class="logo">
+            <a href="../../index.html">
+                <img class="logo" src="../../assets/logo/logo.png" alt="">
+            </a>
+        </div>
+        <!-- header nav -->
+        <nav class="navbar">
+            <ul class="nav">
+                <li>
+                    <a class="home" href="../../index.html">home</a>
+                </li>
+                <li>
+                    <a class="signup" href="./logIn.html">log in</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <form action="#">
-        <label for="Name">name :</label>
-        <input type="text" id="Name" name="name" placeholder="enter your name..." required>
-        <br>
-        <br>
-        <label for="Last-Name">Last Name:</label>
-        <input type="text" name="lastName" id="Last-Name" placeholder="enter your Last name..." required>
 
-        <br>
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" placeholder="enter your password..." required>
-        <br>
-        <br>
-        <label for="Age">Age:</label>
-        <input type="number" id="Age" name="age" style="width: 162px;" min="1" max="100"
-            placeholder="enter your age..." required>
-        <br>
 
-        <p>gender:</p>
 
-        <label for="male">male</label>
-        <input type="radio" id="male" name="gender" value="male" required>
 
-        <label for="female">female</label>
-        <input type="radio" id="female" name="gender" value="female" required>
 
-        <label for="agree">are you agree with our legecy </label>
-        <input type="checkbox" name="agree" id="agree" required>
-        <br>
-        <br>
 
-        <input type="submit" name="submit" value="submit">
-    </form>
+    <div class="form">
+        <div class="form-container">
+            <div class="form-title">
+                <h1>SIGN UP</h1>
+            </div>
+
+            <form class="signup" action="#">
+                <label for="Name">name :</label>
+                <input type="text" id="Name" name="name" placeholder="enter your name..." required>
+                <br>
+                <br>
+                <label for="Last-Name">Last Name:</label>
+                <input type="text" name="lastName" id="Last-Name" placeholder="enter your Last name..." required>
+
+                <br>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="enter your password..." required>
+                <br>
+                <br>
+                <label for="Age">Age:</label>
+                <input type="number" id="Age" name="age" style="width: 162px;" min="1" max="100"
+                    placeholder="enter your age..." required>
+                <br>
+
+                
+                <label class="g">gender:</label>
+                <label for="male">male</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+
+                <label for="female">female</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <br>
+                <br>
+                <input type="checkbox" name="agree" id="agree" checked required>
+                <label for="agree"> agree to the site's terms</label>
+                <br>
+                <br>
+
+                <button class="submit-button" type="submit">submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
 </body>
 
 </html>

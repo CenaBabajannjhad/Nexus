@@ -69,9 +69,7 @@
     border-radius: 5px;
     padding: 13px 20px;
 }
-.log-in > label{
-    display: inline-block;
-}
+
 .log-in > input:focus{
     outline: none;
 }

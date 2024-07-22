@@ -18,5 +18,5 @@ let removeLoading = () => {
 window.addEventListener("load", () => {
   setTimeout(() => {
     removeLoading()
-  }, 1000);
+  }, 500);
 });

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   font-family: "Roboto";
+  scroll-behavior: smooth;
 }
 body {
   background-color: #fefefe;
@@ -368,24 +369,12 @@ main {
   width: 60vw;
   padding: 50px 0 50px 0;
 }
-.back-top a {
-  text-align: right;
-  padding: 15px;
-  border: 1px #fead2a solid;
-  border-radius: 60px;
-  position: absolute;
-  right: 50px;
-  top: 4100px;
+.back-top {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
 }
-.back-top a i {
-  color: #6f6f6f;
-}
-.back-top a:hover {
-  color: #fff;
-  background-color: #fead2a;
-  cursor: pointer;
-}
-
-.back-top a:hover i {
-  color: #fff;
+.back-top-img{
+  width: 60px;
+  height: 60px;
 }

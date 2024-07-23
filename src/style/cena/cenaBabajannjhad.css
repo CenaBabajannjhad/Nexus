@@ -19,16 +19,16 @@
   bottom: 0;
   left: 0;
   background: #fff;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all ease-in-out 0.3s;
-  
+
   background-color: #f1f5f7;
   background-color: #e5e5f7;
   background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px),
-  radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
 }
@@ -45,36 +45,36 @@
 .mb-40 {
   margin-bottom: 40px;
 }
-.mb-20{
+.mb-20 {
   margin-bottom: 20px;
 }
-.my-20{
+.my-20 {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.my-40{
+.my-40 {
   margin-bottom: 40px;
   margin-top: 40px;
 }
-.pb-40{
+.pb-40 {
   padding-bottom: 40px;
 }
-.pt-40{
+.pt-40 {
   padding-top: 40px;
 }
 .py-30 {
   padding: 30px 0px;
 }
-.w-45{
+.w-45 {
   width: 45%;
 }
-.h-screen{
+.h-screen {
   height: 100vh;
 }
 .w-full {
   width: 100%;
 }
-.h-full{
+.h-full {
   height: 100%;
 }
 .flex-center {
@@ -175,7 +175,7 @@ body {
 /* ****************************** */
 /* ****************************** */
 /* navbar */
-.logo{
+.logo {
   color: #2b2b2b;
   font-size: 1.6rem;
   font-weight: 700;
@@ -203,28 +203,28 @@ body {
 /* *************************** */
 /* *************************** */
 /* hero section */
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.hero-title{
+.hero-title {
   margin-top: 200px;
   font-size: 3.8rem;
   text-transform: capitalize;
   line-height: 50px;
   margin-bottom: 15px;
 }
-.hero-desc{
+.hero-desc {
   color: rgb(51, 51, 51);
   padding-right: 100px;
 }
-.name{
+.name {
   color: #9300e1;
 }
-.hero-img{
+.hero-img {
   width: 550px;
 }
-.hero-img > img{
+.hero-img > img {
   width: 100%;
 }
 /* *************************** */
@@ -236,16 +236,16 @@ body {
   width: 100%;
   height: 80%;
 }
-.who-img{
+.who-img {
   width: 500px;
 }
-.who-title{
+.who-title {
   padding-left: 20px;
   margin-top: 200px;
   font-size: 2.4rem;
   line-height: 35px;
 }
-.who-desc{
+.who-desc {
   padding-left: 20px;
   font-size: 0.9rem;
   color: rgb(82, 82, 82);
@@ -263,11 +263,11 @@ body {
   margin-top: 50px;
   text-align: center;
 }
-.goals-title{
+.goals-title {
   font-size: 2.4rem;
   margin-bottom: 20px;
 }
-.goals-desc{
+.goals-desc {
   font-size: 0.9rem;
   color: rgb(82, 82, 82);
 }
@@ -317,10 +317,10 @@ body {
   width: 100%;
   height: 100vh;
 }
-.contact-mt{
+.contact-mt {
   margin-top: 80px;
 }
-.contact-img{
+.contact-img {
   width: 480px;
 }
 .contact-ways {
@@ -359,12 +359,12 @@ body {
   border: none;
   color: #ffffff;
   text-transform: capitalize;
-  transition: all ease-in-out .2s;
+  transition: all ease-in-out 0.2s;
 }
 .inputs > button:hover {
   cursor: pointer;
   background: #ba3aff;
-} 
+}
 .socials {
   padding: 0px 50px 0px 50px;
   color: rgb(49, 49, 49);
@@ -399,13 +399,3 @@ body {
   text-transform: capitalize;
   font-size: 1rem;
 }
-@media only screen and (max-width: 1080px) {
-  :root {
-    --max-width: 720px;
-  }
-}
-
-
-
-
-
